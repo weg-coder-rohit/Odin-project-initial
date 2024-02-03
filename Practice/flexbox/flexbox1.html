@@ -6,6 +6,29 @@
     <title>Flexbox exaple</title>
     <link rel="stylesheet" href="./flexbox1style.css">
         <style>
+            form {
+                border: 1px solid var(--color-gray-300);
+                display: flex;
+                gap: 16px;
+                flex-wrap: wrap;
+                align-items: flex-end;
+                align-items: center;
+                background-color: hsl(210deg, 30%, 12%);
+                color: hsl(0deg, 0%, 100%);;
+            }
+            .name {
+                flex: 1 1 160px;
+            }
+            .email {
+                flex: 3 1 200px;
+            }
+            button {
+                flex: 1 1 80px;
+                height: 2.5rem;
+                background-color: rgb(230, 230, 230);
+                border-radius: 4px;
+                border: none;
+            }
 
         </style>
 </head>
