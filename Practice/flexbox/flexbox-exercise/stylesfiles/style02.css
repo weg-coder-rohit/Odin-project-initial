@@ -16,8 +16,7 @@ ul {
 }
 
 .item-1 {
-    flex-shrink: 2;
-    margin-right: auto;
+
 }
 
 .item-2 {
@@ -29,7 +28,7 @@ ul {
 
 .item-3 {
     flex-shrink: 2;
-    margin-left: auto;
+
 }
 li {
     padding: 15px;
